@@ -1,0 +1,909 @@
+cd x264/
+vi build_android_arm.sh 
+sudo chmdo a+x *.sh
+sudo chmod a+x *.sh
+vi build_android_arm.sh 
+sudo chmod 0777 *.sh
+vi build_android_arm.sh 
+./build_android_arm.sh
+cd ..
+sudo chmod -R 0777 x264/
+cd x264/
+./build_android_arm.sh
+sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev libxml2-utils xsltproc unzip
+sudo apt-get install git-core gnupg flex bison  build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev libxml2-utils xsltproc unzip
+sudo apt-get install git-core gnupg flex bison  build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev libxml2-utils xsltproc unzip --fix-missing
+./build_android_arm.sh
+git
+sudo git clone https://code.videolan.org/videolan/x264.git
+git clone git@github.com:RoyGuanyu/build-scripts-of-ffmpeg-x264-for-android-ndk.git
+sudo git clone https://github.com/RoyGuanyu/build-scripts-of-ffmpeg-x264-for-android-ndk.git
+cd x264/
+cp ../build-scripts-of-ffmpeg-x264-for-android-ndk/x264/* .
+sudo  cp ../build-scripts-of-ffmpeg-x264-for-android-ndk/x264/* .
+ls -l
+vi build_android_arm.sh 
+cd ..
+wget https://dl.google.com/android/repository/android-ndk-r19c-linux-x86_64.zip
+unzip android-ndk-r19c-linux-x86_64.zip
+sudo apt install unzip
+unzip android-ndk-r19c-linux-x86_64.zip
+cd android-ndk-r19c
+pwd
+sudo apt-get update
+make
+sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev libxml2-utils xsltproc unzip
+pwd
+cd x264/
+vi build_android_arm.sh 
+make
+./build_android_arm.sh 
+clear
+./build_android_arm.sh 
+ls -l
+vi build_android_arm.sh 
+./configure   --prefix=$PREFIX   --enable-static   --enable-pic   --host=arm-linux   --cross-prefix=$TOOLCHAIN/bin/arm-linux-androideabi-   --sysroot=$PLATFORM
+gcc
+vi config.log 
+cd $NDK
+ls
+cd android-ndk-r19c/
+ls
+cd ../x264/
+vi build_android_arm.sh 
+NDK=/home/ubuntu/android-ndk-r19c
+PLATFORM=$NDK/platforms/android-18/arch-arm/
+TOOLCHAIN=$NDK/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64
+PREFIX=./android/arm
+echo $NDK
+cd $TOOLCHAIN
+ls
+ls -l
+cd bin
+NDK=/home/ubuntu/android-ndk-r19c
+PLATFORM=$NDK/platforms/android-18/arch-arm/
+TOOLCHAIN=$NDK/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64
+ls
+sudo apt install gcc-arm-linux-androideabi
+ls
+cd ~/x264/
+./build_android_arm.sh 
+sudo apt install nasm
+./build_android_arm.sh 
+sudo apt install nasm
+nasm
+sudo apt-get update
+sudo apt-get -y install build-essential checkinstall git libfaac-dev libgpac-dev   libjack-jackd2-dev libmp3lame-dev libopencore-amrnb-dev libopencore-amrwb-dev   librtmp-dev libsdl1.2-dev libtheora-dev libva-dev libvdpau-dev libvorbis-dev   libx11-dev libxfixes-dev pkg-config texi2html yasm zlib1g-dev
+./build_android_arm.sh 
+cd ..
+wget http://www.nasm.us/pub/nasm/releasebuilds/2.13.01/nasm-2.13.01.tar.bz2
+tar xjvf nasm-2.13.01.tar.bz2
+cd nasm-2.13.01
+./autogen.sh
+./configure
+make install
+sudo make install
+cd ~/x264/
+./build_android_arm.sh 
+sudo ./build_android_arm.sh 
+ls -l
+cd output/
+ls
+cd ..
+ls -l libx264.a
+ls -l vi build_android_arm.sh 
+vi
+vi build_android_arm.sh 
+echo $NDK
+vi build_android_arm64-v8a.sh 
+sudo apt-get update
+pwd
+ls -l
+vi ~/.bash_history 
+wget https://dl.google.com/android/repository/android-ndk-r13b-linux-x86_64.zip
+unzip android-ndk-r13b-linux-x86_64.zip
+cd x264/
+vi build_android_arm.sh 
+make clean
+./build_android_arm.sh
+cd android/arm/lib/
+ls -l
+cd ../include
+ls -l
+cd ..
+vi build_android_arm.sh 
+ls -l
+vi build_android_arm.sh 
+./build_android_arm.sh 
+pwd
+git
+pwd
+cd ..
+git clone https://github.com/sanjeeviisl/x264AndroidEncoder.git
+cd x264AndroidEncoder/
+ls -l
+vi README.md 
+cp -a ../x264 .
+cd ..
+cd x264AndroidEncoder/
+cd x264/
+make clean
+ls -l
+cd ..
+git add x264
+git commit -a
+git add x264/*
+git add x264/
+git add README.md 
+git commit -a
+git push origin master
+git add .
+git commit -a
+git add x264
+git commit -a
+cd x264/
+git add .
+git commit -a
+cd ..
+git push origin master
+git pull
+cd x264/
+./build_android_arm.sh 
+make clean
+cd ..
+pwd
+mkdir test
+cd test
+git clone https://github.com/sanjeeviisl/x264AndroidEncoder.git
+cd x264AndroidEncoder/x264/
+ls -l
+cd ..
+cd x264AndroidEncoder/x264/
+git add .
+git commit -a
+git push origin master
+cd ..
+git push origin master
+cd x264
+git push origin master
+ls -l
+ls -la
+git remote
+git local
+git 
+git status
+cd ..
+pwd
+cd x264/
+ls -l
+make clean
+ls -l
+vi .git/config 
+git add .
+git commit -a
+git push origin master
+cd ..
+git pull
+git push origin master
+cd x264/
+ls
+rm -rf .git
+git add .
+git
+cd ..
+git reset
+cd ..
+cd ubuntu/
+rm -rf x264AndroidEncoder/
+git clone https://github.com/sanjeeviisl/x264AndroidEncoder.git
+cd x264AndroidEncoder/x264/
+cp -a ~/x264/* .
+rm -rf .git
+find -name ".git"
+find -name ".git" -r
+find . -name ".git" 
+ls -l
+cd doc
+cd ..
+cd x264/
+git add .
+cd ..
+rm -rf x264/
+cp -a ~/x264/* .
+ls -l
+git commit -a
+cd x264AndroidEncoder/
+git commit -a
+ps
+cd ..
+rm -rf x264AndroidEncoder/
+git clone https://github.com/sanjeeviisl/x264AndroidEncoder.git
+git status
+cd x264AndroidEncoder/
+git status
+cp -a ~/x264/* .
+rm -rf x264
+cp -a ~/x264/* .
+rm -rf .git
+git
+git status
+cd ../x264
+rm -rf .git
+ls -l
+git
+git status
+cd ..
+rm -rf x264AndroidEncoder/
+git clone https://github.com/sanjeeviisl/x264AndroidEncoder.git
+cd x264AndroidEncoder/
+cd x264/
+cp -a ~/x264/* .
+git add .
+ls -l
+git add *.sh
+sudo rm -rf /home/ubuntu/x264AndroidEncoder/.git/index.lock
+git add *.sh
+cd ..
+rm -rf x264/
+git status
+git commit -a
+git push origin master
+cp ~/x264/*.sh .
+git add .
+git commit -a
+git push origin master
+pwd
+sudo apt get update
+sudo apt-get update
+ls -l
+mkdir homeautomation
+cd homeautomation/
+ls -l
+gcc
+ds
+du
+cd ..
+du
+cd homeautomation/
+ls -l
+cd homeautomation/
+ls -l
+git clone ssh://vishnukcs123@kcsindia.co.in/home/vishnukcs123/gitrepo
+pwd
+ls -l
+cd gitrepo/
+ls -l
+ls
+make
+cd ..
+mkdir orangepi
+cd orangepi/
+sudo apt-get -y -qq install git
+git clone --depth 1 https://github.com/armbian/build
+cd build/
+./compile.sh
+./compile.sh BOARD=cubietruck BRANCH=next KERNEL_ONLY=yes RELEASE=xenial
+vi main.sh 
+sudo  ./compile.sh 
+sudo apt-get update
+sudo apt-get install ntpdate
+./compile.sh
+sudo apt-get install binfmt-support
+./compile.sh
+ubuntu
+vi lib/main.sh 
+vi main.sh 
+sudo apt update --fix-missing
+./compile.sh
+cd ..
+sudo apt-get install build-essential
+aptitude install ccache
+sudo  apt  install ccache
+sudo apt-get install build-essential
+cd build/
+./compile.sh 
+dialog
+sudo apt install dialog
+./compile.sh 
+vi lib/compilation.sh 
+sudo ./compile.sh 
+python
+sudo apt install python-dev packages
+sudo apt install python-dev 
+sudo apt install swig
+sudo ./compile.sh 
+debootstrap
+sudo apt install debootstrap
+sudo ./compile.sh 
+sudo apt-get install mplayer
+sudo apt-get install motion
+ifconfig
+sudo nano /etc/motion/motion.conf
+sudo apt-get install nsd
+cd homeautomation/
+ls
+cd ..
+cd orangepi/
+cd build/
+sudo ./compile.sh 
+cd lib/
+ls
+vi configuration.sh 
+cd ..
+vi config-default.conf 
+./compile.sh 
+vi config-default.conf 
+./compile.sh 
+vi lib/debootstrap-ng.sh 
+vi config-default.conf 
+./compile.sh 
+vi lib/image-helpers.sh 
+cd output/
+ls
+cd ..
+cd lib/
+vi debootstrap-ng.sh 
+cd ..
+vi config-default.conf 
+sudo ./compile.sh 
+vi compile.sh 
+cd lib/
+ls
+cd ..
+vi compile.sh BUILD_ALL=yes
+sudo compile.sh BUILD_ALL=yes
+sudo ./compile.sh BUILD_ALL=yes
+cd ..
+rm -rf orangepi/
+sudo rm -rf orangepi/
+git clone https://github.com/orangepi-xunlong/orangepi-bsp.git
+git clone https://github.com/orangepi-xunlong/OrangePiH6_uboot.git
+cd OrangePiH6_uboot/
+make CROSS_COMPILE=arm-linux-gnueabihf- Orangepi_config
+make CROSS_COMPILE=arm-linux-gnueabihf- 
+make CROSS_COMPILE=arm-linux-gnueabihf- configure
+make
+./configure
+ls 
+vi README 
+"make orangepi_config
+sudo  make orangepi_config
+grep -ir "TQ"
+cd include/configs/
+ls
+ls -l *.config
+grep -ir "CONFIG_TQM860L"
+cd ..
+sudo  make OrangePiH6_OnePlus_sun50iw6p1_config
+sudo  make OrangePiH6_config
+cd include/configs/
+ls -l
+cd ..
+vi Makefile 
+vi README 
+make clean
+grep -ir TQM823L_config
+grep -ir "TQM823L_config"
+ls -l
+vi boards.cfg 
+cd examples/
+ls
+cd ..
+vi config.mk 
+ls
+cd arch/
+ls
+cd ..
+sudo  make OrangePiH6_config
+sudo  make OrangePi_config
+vi Makefile 
+cd scripts/basic/
+ls
+vi Makefile 
+cd ...
+cd ..
+cd include/configs/
+ls
+:q
+cd ..
+sudo make sun8iw12p1_config
+make 
+cd ..
+git clone https://github.com/orangepi-xunlong/OrangePiH6_toolchain.git
+mv OrangePiH6_toolchain toolchain
+cd OrangePiH6_uboot/
+make
+cd ../toolchain/
+ls
+cd  u-boot-compile-tools00
+ls -l
+vi README.md 
+cd neworange/
+ls -l
+ls
+cd build/
+ls
+cd userpatches/
+ls
+sudo apt-get install gcc-arm-linux-gnueabihf cpp-arm-linux-gnueabihf libusb-1.0-0 libusb-1.0-0-dev git wget fakeroot kernel-package 
+cd orangepi/
+cd build/
+ls -l
+vi compile.sh 
+vi README.md 
+cd ..
+mkdir neworange
+cd neworange/
+sudo apt-get install lightdm\
+sudo apt-get install lightdm
+git clone  https://github.com/armbian/build
+cd build/
+./compile.sh 
+sudo ./compile.sh 
+sudo ./compile.sh BOARD=orangepizero BRANCH=default RELEASE= BUILD_DESKTOP=no KERNEL_ONLY=yes KERNEL_CONFIGURE=no
+sudo ./compile.sh
+sudo apt-get updatearm-linux-gnueabihf-gcc
+sudo apt-get install build-essential u-boot-tools uboot-mkimage binutils-arm-linux-gnueabihf gcc-4.7-arm-linux-gnueabihf-base                      g++-4.7-arm-linux-gnueabihf
+sudo apt-get install build-essential 
+sudo apt-get install build-essential u-boot-tools uboot-mkimage 
+sudo apt-get install  binutils-arm-linux-gnueabihf gcc-4.7-arm-linux-gnueabihf-base   g++-4.7-arm-linux-gnueabihf
+vi config-default.conf 
+arm-linux-gnueabihf-gcc
+sudo apt install gcc-arm-linux-gnueabihf
+sudo apt install fex2bin
+flex2bin
+sudo ./compile.sh
+rm -rf output/
+sudo ./compile.sh BOARD=orangepizero BRANCH=default RELEASE= BUILD_DESKTOP=no KERNEL_ONLY=yes KERNEL_CONFIGURE=no
+rm -rf cache/
+sudo rm -rf cache/
+sudo ./compile.sh
+vi config-default.conf 
+sudo ./compile.sh
+git clone --recursive https://github.com/andrewssobral/simple_vehicle_counting.git
+cd simple_vehicle_counting
+cd build
+cmake ..
+sudo apt install cmake
+cmake ..
+cd ..
+ls
+vi run_simple_vehicle_counting.sh 
+vi run_python_demo.sh 
+cd build/
+ls
+cd ..
+ls
+cd package_analysis/
+ls
+vi VehicleCouting.cpp
+ls -l
+cd neworange/
+ls
+cd build/
+df
+sudo ./compile.sh 
+cd output/config/
+ls
+cd ..
+find . / "rootfs"
+find .  "rootfs"
+cd images/
+ls
+cd ..
+ls -l
+cd debs
+ls
+cd xenial/
+ls
+cd ..
+ls -l
+cd userpatches/
+ls
+cd ..
+ifconfig
+http://172.31.29.229:3142
+curl http://172.31.29.229:3142
+vi config-default.conf 
+sudo ./compile.sh 
+cd output/images/
+ls
+ls -l
+cd ..
+ls -l
+cd cache/
+ls
+cd rootfs/
+ls
+cd ..
+rm -rf rootfs/
+cd ..
+sudo ./compile.sh 
+vi lib/debootstrap-ng.sh 
+vi lib/image-helpers.sh 
+vi config-default.conf 
+sudo ./compile.sh 
+vi lib/compilation.sh 
+cd ..
+rm -rf neworange/
+sudo rm -rf neworange/
+mkdir pi
+cd pi
+ls -l
+git clone  https://github.com/armbian/build
+cd build/
+sudo ./compile.sh 
+pwd
+ls
+df
+cd pi/
+ls
+cd build
+ls
+./compile.sh 
+sudo apt get update
+sudo apt-get update
+./compile.sh 
+systemctl status apt-cacher-ng -l
+sudo apt-get update -q
+sudo ufw allow 3142/tcp
+sudo apt-get install apt-cacher-ng -y
+systemctl status apt-cacher-ng -l
+./compile.sh 
+sudo ~/repos/mkosi/mkosi -d ubuntu -r xenial -t directory
+vi lib/debootstrap-ng.sh:152
+vi lib/debootstrap-ng.sh 
+cd /usr/share/keyrings/
+ls
+cp ubuntu-archive-keyring.gpg debian-archive-keyring.gpg
+sudo cp ubuntu-archive-keyring.gpg debian-archive-keyring.gpg
+cd .
+cd ~/pi/build/
+./compile.sh 
+sudo cp /usr/bin/qemu-arm-static /mnt/chroot/usr/bin
+sudo apt install qemu-arm-static
+sudo apt-get update
+sudo apt-get install qemu-user-static
+sudo cp /usr/bin/qemu-arm-static /mnt/chroot/usr/bin/
+sudo ./compile.sh 
+cd output/images/
+ls -l
+df
+cd ..
+sudo ./compile.sh 
+sudo apt-get install gcc-arm-linux-gnueabihf libc6-dev-armhf-cross qemu-arm-static
+df
+cd pi
+cd buil
+cd build/
+sudo ./compile.sh 
+cd cache/
+cd rootfs/
+ls
+sudo apt-get install lz4
+sudo apt-get install liblz4-tool
+sudo ./compile.sh 
+cd ..
+sudo ./compile.sh 
+cd ~/x264
+vi build_android_arm64-v8a.sh 
+NDK=/home/ubuntu/android-ndk-r13b
+PLATFORM=$NDK/platforms/android-21/arch-arm64/
+TOOLCHAIN=$NDK/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64
+echo $TOOLCHAIN 
+echo $PLATFORM 
+./build_android_arm64-v8a.sh 
+ls -l
+vi ./build_android_x86_64.sh 
+NDK=/home/ubuntu/android-ndk-r13b
+PLATFORM=$NDK/platforms/android-21/arch-x86_64/
+TOOLCHAIN=$NDK/toolchains/x86_64-4.9/prebuilt/darwin-x86_64
+PREFIX=./android/x86_64
+cd $TOOLCHAIN
+cd  /home/ubuntu/android-ndk-r13b/toolchains
+cd x86_64-4.9/prebuilt/linux-x86_64/
+pwd
+cd ~/x264
+vi ./build_android_x86_64.sh 
+NDK=/home/ubuntu/android-ndk-r13b
+PLATFORM=$NDK/platforms/android-21/arch-x86_64/
+TOOLCHAIN=$NDK/toolchains/x86_64-4.9/prebuilt/linux-x86_64
+PREFIX=./android/x86_64
+cd $TOOLCHAIN
+cd ~/x264
+cd android/
+ls
+ls -l
+cd ..
+git status
+cd ../x264AndroidEncoder/
+ls -l
+vi version.sh 
+rm -rf *.sh
+cp ~/x264/*.sh .
+ls -l
+rm -rf build_android_mips.sh 
+ls -l
+git add .
+git status
+git commit -a
+git push origin master
+cp -a ~/x264 .
+cd x264/
+make clean
+ls -l
+rm -rf  build_android_mips.sh
+ls -l
+make distclean
+ls -l
+rm -rf android/
+ls -l
+cd output/
+ls
+cd ..
+ls
+ls -l
+vi AUTHORS 
+rm -rf AUTHORS 
+ls -l
+vi autocomplete.c 
+cd ..
+git add x264
+git commit -a
+git push origin master
+cd x264/
+sudo ./build_android_all.sh 
+ls -l android/
+vi ./build_android_x86_64.sh 
+vi config.h
+vi config.mak 
+ls -l
+vi build_android_x86.sh 
+cd pi/build/
+vi config-default.conf 
+cd ..
+ls
+cd x264
+ls
+ls -l
+vi build_android_arm.sh 
+cd output/
+ls
+cd ..
+vi build_android_all.sh 
+vi build_android_arm64-v8a.sh 
+ls
+ls -l
+./build_android_arm.sh 
+ls -l
+vi build_android_arm.sh 
+vi build_android_arm64-v8a.sh 
+vi build_android_arm.sh 
+vi build_android_x86.sh 
+vi build_android_arm.sh 
+vi build_android_x86.sh 
+vi build_android_x86_64.sh 
+vi build_android_all.sh 
+vi build_android_x86_64.sh 
+sudo ./build_android_x86.sh 
+vi build_android_x86.sh 
+make install
+sudo make install
+ls -l
+cd android/arm/
+ls
+cd bin/
+ls
+ls -l
+cd ../lib/
+ls
+ls -l
+cd ..
+mkdir x86
+ls -l
+cd ..
+vi build_android_x86.sh 
+vi build_android_arm.sh 
+vi build_android_x86.sh 
+make install --prefix =  ./android/x86/
+vi build_android_x86.sh 
+vi config.h
+vi ./build_android_x86.sh 
+NDK=/home/ubuntu/android-ndk-r13b
+PLATFORM=$NDK/platforms/android-18/arch-x86/
+TOOLCHAIN=$NDK/toolchains/x86-4.9/prebuilt/darwin-x86_64
+PREFIX=./android/x86
+echo $PREFIX 
+vi ./build_android_x86.sh 
+./configure   --prefix=$PREFIX   --enable-static   --enable-pic   --host=i686-linux   --cross-prefix=$TOOLCHAIN/bin/i686-linux-android-   --sysroot=$PLATFORM
+cd $TOOLCHAIN
+cd   /home/ubuntu/android-ndk-r13b/toolchains/
+cd x86-4.9/prebuilt/linux-x86_64/
+pwd
+cd ..
+cd ~/x264/
+vi ./build_android_x86.sh 
+NDK=/home/ubuntu/android-ndk-r13b
+PLATFORM=$NDK/platforms/android-18/arch-x86/
+TOOLCHAIN=/home/ubuntu/android-ndk-r13b/toolchains/x86-4.9/prebuilt/linux-x86_64
+PREFIX=./android/x86
+cd $PLATFORM
+cd $TOOLCHAIN
+cd ~/x264
+vi ./build_android_x86.sh 
+./configure   --prefix=$PREFIX   --enable-static   --enable-pic   --host=i686-linux   --cross-prefix=$TOOLCHAIN/bin/i686-linux-android-   --sysroot=$PLATFORM
+make install
+vi ./build_android_x86.sh 
+vi build_android_arm64-v8a.sh 
+NDK=/home/ubuntu/android-ndk-r13b
+PLATFORM=$NDK/platforms/android-21/arch-arm64/
+TOOLCHAIN=$NDK/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64
+PREFIX=./android/arm64
+cd $TOOLCHAIN
+vi build_android_arm64-v8a.sh 
+NDK=/home/ubuntu/android-ndk-r13b
+PLATFORM=$NDK/platforms/android-21/arch-arm64/
+TOOLCHAIN=$NDK/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64
+PREFIX=./android/arm64
+cd $TOOLCHAIN
+cd ..
+cd ~/x264
+./build_android_arm64-v8a.sh 
+ls -l android/
+./build_android_x86_64.sh 
+cd android/
+ls -l
+cd arm/lib/
+ls
+cd ..
+ls -l
+cd ..
+tar -cvzf android/
+tar -cvzf android/ android.gz
+tar -cvzf  android.gz android/
+ls
+ls -l
+cp android.gz ~/x264AndroidEncoder/
+cd ~/x264AndroidEncoder/
+git add android.gz 
+git commit -a 
+git push remote orign
+git push remote origin'
+git push remote origin
+git push origin master
+cd pi/
+cd build/
+sudo ./compile.sh 
+cd pi
+cd build/
+VI config-default.conf 
+vi config-default.conf 
+sudo ./compile.sh 
+df -h
+sudo resize2fs /dev/xvda1
+df -h
+sudo resize2fs /dev/xvda1
+sudo apt-get install git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev lib32z-dev libgl1-mesa-dev libxml2-utils xsltproc unzip
+pwd
+mkdir android_rpi3
+cd android_rpi3/
+repo init -u https://android.googlesource.com/platform/manifest -b android-8.1.0_r46
+sudo apt install repo
+repo init -u https://android.googlesource.com/platform/manifest -b android-8.1.0_r46
+git clone https://github.com/android-rpi/local_manifests .repo/local_manifests -b oreo
+repo sync
+top
+df -h
+top
+cd android_rpi3/
+ls
+cd .git
+l s-l
+ls -l
+top
+cd android_rpi3/
+repo sync
+gcc-arm-linux-gnueabihf
+path
+sudo apt-get install gcc-arm-linux-gnueabihf
+cd kernel/rpi
+ls -l
+ARCH=arm scripts/kconfig/merge_config.sh arch/arm/configs/bcm2709_defconfig kernel/configs/android-base.config kernel/configs/android-base-arm.config kernel/configs/android-recommended.config
+ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- make zImage -J4
+ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- make zImage 
+ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf- make zImage  -j 4
+sudo apt-get install python-mako
+cd ..
+source build/envsetup.sh
+lunch rpi3-eng -j8
+make ramdisk systemimage -j8
+sudo apt-get install openjdk-8-jdk
+make ramdisk systemimage -j8
+df -h
+top
+df -h
+top
+cd android_rpi3/
+ls -l
+make ramdisk systemimage -j8
+source build/envsetup.sh
+lunch rpi3-eng
+make ramdisk systemimage -j8
+make ramdisk systemimage -j4
+top
+source build/envsetup.sh
+lunch rpi3-eng
+make ramdisk systemimage -j8
+cd android_rpi3/
+. build/envsetup.sh
+tapas LiveTv x86
+make LiveTv
+make LiveTv -j8
+tapas LiveTv arm
+make LiveTv -j8
+cd  out/target/product/generic/system/priv-app/LiveTv/
+ls -l
+cd ..
+ls
+cd ..
+ls
+cd rpi3/
+ls
+top
+cd android_rpi3/
+source build/envsetup.sh
+lunch rpi3-eng
+make ramdisk systemimage
+make ramdisk systemimage -j8
+make ramdisk systemimage
+export JACK_SERVER_VM_ARGUMENTS="-Dfile.encoding=UTF-8 -XX:+TieredCompilation -Xmx4g"
+./prebuilts/sdk/tools/jack-admin kill-server
+./prebuilts/sdk/tools/jack-admin start-server
+make ramdisk systemimage 
+cd out/target/product/rpi3/
+ls
+ls -l
+cd system/
+ls
+cd ..
+vi installed-files.txt 
+cd ..
+ls -l
+make ramdisk systemimage 
+cd android_rpi3/
+ls
+source build/envsetup.sh
+vi build/envsetup.sh
+lunch rpi3-eng
+make ramdisk systemimage -j8
+cd out/target/product/rpi3/
+ls
+df -j
+df -h
+pwd
+cd or
+ls
+cd pi/
+cd build/
+sudo ./compile.sh 
+cd cache/rootfs/
+ls
+cd ..
+rm -rf rootfs/
+cd ..
+sudo ./compile.sh 
+cd output/images/
+ls -l
+df -h
+cd ..
+ls
+cd config/
+ls
+vi linux-sun8i-default.config 
+ls -l
+cd ~/android_rpi3/
+ls -l
+cd kernel/rpi/
+ls
+ls -l
+vi ~/.bash_history 
