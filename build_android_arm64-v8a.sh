@@ -1,6 +1,6 @@
 #!/bin/bash
-NDK=/home/ubuntu/android-ndk-r13b
-PLATFORM=$NDK/platforms/android-21/arch-arm64/
+NDK=/hdd/android-ndk-r20b
+PLATFORM=$NDK/platforms/android-28/arch-arm64/
 TOOLCHAIN=$NDK/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64
 PREFIX=./android/arm64
 
